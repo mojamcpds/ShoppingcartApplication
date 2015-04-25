@@ -1,0 +1,9 @@
+D:\BlogSource\Algorithms\Shoppingcart\ShoppingCart.Models\bin\Debug\ShoppingCart.Models.dll
+D:\BlogSource\Algorithms\Shoppingcart\ShoppingCart.Models\bin\Debug\ShoppingCart.Models.pdb
+D:\BlogSource\Algorithms\Shoppingcart\ShoppingCart.Models\bin\Debug\Shoppingcart.Infrastructure.dll
+D:\BlogSource\Algorithms\Shoppingcart\ShoppingCart.Models\bin\Debug\log4net.dll
+D:\BlogSource\Algorithms\Shoppingcart\ShoppingCart.Models\bin\Debug\Shoppingcart.Infrastructure.pdb
+D:\BlogSource\Algorithms\Shoppingcart\ShoppingCart.Models\bin\Debug\log4net.xml
+D:\BlogSource\Algorithms\Shoppingcart\ShoppingCart.Models\obj\Debug\Shoppingcart.Models.csprojResolveAssemblyReference.cache
+D:\BlogSource\Algorithms\Shoppingcart\ShoppingCart.Models\obj\Debug\ShoppingCart.Models.dll
+D:\BlogSource\Algorithms\Shoppingcart\ShoppingCart.Models\obj\Debug\ShoppingCart.Models.pdb

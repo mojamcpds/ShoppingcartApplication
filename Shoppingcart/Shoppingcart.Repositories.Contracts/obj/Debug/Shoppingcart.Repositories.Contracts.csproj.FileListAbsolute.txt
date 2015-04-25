@@ -1,0 +1,11 @@
+D:\BlogSource\Algorithms\Shoppingcart\Shoppingcart.Repositories.Contracts\bin\Debug\Shoppingcart.Repositories.Contracts.dll
+D:\BlogSource\Algorithms\Shoppingcart\Shoppingcart.Repositories.Contracts\bin\Debug\Shoppingcart.Repositories.Contracts.pdb
+D:\BlogSource\Algorithms\Shoppingcart\Shoppingcart.Repositories.Contracts\bin\Debug\Shoppingcart.Infrastructure.dll
+D:\BlogSource\Algorithms\Shoppingcart\Shoppingcart.Repositories.Contracts\bin\Debug\ShoppingCart.Models.dll
+D:\BlogSource\Algorithms\Shoppingcart\Shoppingcart.Repositories.Contracts\bin\Debug\log4net.dll
+D:\BlogSource\Algorithms\Shoppingcart\Shoppingcart.Repositories.Contracts\bin\Debug\Shoppingcart.Infrastructure.pdb
+D:\BlogSource\Algorithms\Shoppingcart\Shoppingcart.Repositories.Contracts\bin\Debug\ShoppingCart.Models.pdb
+D:\BlogSource\Algorithms\Shoppingcart\Shoppingcart.Repositories.Contracts\bin\Debug\log4net.xml
+D:\BlogSource\Algorithms\Shoppingcart\Shoppingcart.Repositories.Contracts\obj\Debug\Shoppingcart.Repositories.Contracts.csprojResolveAssemblyReference.cache
+D:\BlogSource\Algorithms\Shoppingcart\Shoppingcart.Repositories.Contracts\obj\Debug\Shoppingcart.Repositories.Contracts.dll
+D:\BlogSource\Algorithms\Shoppingcart\Shoppingcart.Repositories.Contracts\obj\Debug\Shoppingcart.Repositories.Contracts.pdb

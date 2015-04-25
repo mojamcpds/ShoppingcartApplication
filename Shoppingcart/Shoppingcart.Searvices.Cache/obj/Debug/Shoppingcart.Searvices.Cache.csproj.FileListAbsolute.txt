@@ -1,0 +1,5 @@
+D:\BlogSource\Algorithms\Shoppingcart\Shoppingcart.Searvices.Cache\bin\Debug\Shoppingcart.Searvices.Cache.dll
+D:\BlogSource\Algorithms\Shoppingcart\Shoppingcart.Searvices.Cache\bin\Debug\Shoppingcart.Searvices.Cache.pdb
+D:\BlogSource\Algorithms\Shoppingcart\Shoppingcart.Searvices.Cache\obj\Debug\Shoppingcart.Searvices.Cache.csprojResolveAssemblyReference.cache
+D:\BlogSource\Algorithms\Shoppingcart\Shoppingcart.Searvices.Cache\obj\Debug\Shoppingcart.Searvices.Cache.dll
+D:\BlogSource\Algorithms\Shoppingcart\Shoppingcart.Searvices.Cache\obj\Debug\Shoppingcart.Searvices.Cache.pdb

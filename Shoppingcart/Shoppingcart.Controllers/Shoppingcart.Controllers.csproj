@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{997A6D42-54F8-4D8E-A25F-0479F4E70707}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Shoppingcart.Controllers</RootNamespace>
+    <AssemblyName>Shoppingcart.Controllers</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.0\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.0\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>C:\Users\DELL\Desktop\RequireddllforControllers\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>C:\Users\DELL\Desktop\RequireddllforControllers\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>C:\Users\DELL\Desktop\RequireddllforControllers\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>C:\Users\DELL\Desktop\RequireddllforControllers\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>C:\Users\DELL\Desktop\RequireddllforControllers\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>C:\Users\DELL\Desktop\RequireddllforControllers\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>C:\Users\DELL\Desktop\RequireddllforControllers\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>C:\Users\DELL\Desktop\RequireddllforControllers\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>C:\Users\DELL\Desktop\RequireddllforControllers\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>C:\Users\DELL\Desktop\RequireddllforControllers\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>C:\Users\DELL\Desktop\RequireddllforControllers\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap">
+      <HintPath>C:\Users\DELL\Desktop\RequireddllforControllers\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\DELL\Desktop\RequireddllforControllers\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountModels\AccountViewModels.cs" />
+    <Compile Include="AccountModels\IdentityConfig.cs" />
+    <Compile Include="AccountModels\ManageViewModels.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\_HomeController.cs" />
+    <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProductCatalogBaseController.cs" />
+    <Compile Include="Controllers\_ProductController.cs" />
+    <Compile Include="IoCControllerFactory.cs" />
+    <Compile Include="JsonDTOs\JsonProductSearchRequest.cs" />
+    <Compile Include="JsonDTOs\JsonRefinementGroup.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\ProductCatalog\BaseProductCatalogPageView.cs" />
+    <Compile Include="ViewModels\ProductCatalog\HomePageView.cs" />
+    <Compile Include="ViewModels\ProductCatalog\ProductDetailView.cs" />
+    <Compile Include="ViewModels\ProductCatalog\ProductSearchResultView.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Shoppingcart.Infrastructure\Shoppingcart.Infrastructure.csproj">
+      <Project>{f898678e-eb69-48f0-aad9-779a5693a04b}</Project>
+      <Name>Shoppingcart.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShoppingCart.Models\Shoppingcart.Models.csproj">
+      <Project>{78930a02-f9b1-4253-8b9d-d9f826d209a3}</Project>
+      <Name>Shoppingcart.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shoppingcart.Repositories.Contracts\Shoppingcart.Repositories.Contracts.csproj">
+      <Project>{7a61585b-0147-41e5-9fa1-580a7c7edd31}</Project>
+      <Name>Shoppingcart.Repositories.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shoppingcart.Repositories\Shoppingcart.Repositories.csproj">
+      <Project>{c8c8b1d7-89ec-44d2-9559-97908ae0580d}</Project>
+      <Name>Shoppingcart.Repositories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shoppingcart.Searvices.Cache\Shoppingcart.Searvices.Cache.csproj">
+      <Project>{682c4e6c-8132-4a37-9220-105158f769aa}</Project>
+      <Name>Shoppingcart.Searvices.Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shoppingcart.Services\Shoppingcart.Services.csproj">
+      <Project>{83d08e3e-b5aa-4995-ab84-4be61711fb91}</Project>
+      <Name>Shoppingcart.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,6 @@
+D:\BlogSource\Algorithms\Shoppingcart\Shoppingcart.Infrastructure\bin\Debug\Shoppingcart.Infrastructure.dll
+D:\BlogSource\Algorithms\Shoppingcart\Shoppingcart.Infrastructure\bin\Debug\Shoppingcart.Infrastructure.pdb
+D:\BlogSource\Algorithms\Shoppingcart\Shoppingcart.Infrastructure\bin\Debug\log4net.dll
+D:\BlogSource\Algorithms\Shoppingcart\Shoppingcart.Infrastructure\bin\Debug\log4net.xml
+D:\BlogSource\Algorithms\Shoppingcart\Shoppingcart.Infrastructure\obj\Debug\Shoppingcart.Infrastructure.dll
+D:\BlogSource\Algorithms\Shoppingcart\Shoppingcart.Infrastructure\obj\Debug\Shoppingcart.Infrastructure.pdb
