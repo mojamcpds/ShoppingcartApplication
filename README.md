@@ -28,7 +28,6 @@ During creation of this application I will use following technologies
 <p style="padding-left: 30px;">b). Test Driven Development (TDD)</p>
 <p style="padding-left: 30px;">c). Some patterns from Gang of Four Design Patterns (GOF)</p>
 <p style="padding-left: 30px;">d). Some Patterns of Enterprise Application Architecture (PoEAA)</p>
-<p style="padding-left: 30px;"> f). SOLID principles</p>
 &nbsp;
 
 
