@@ -12,11 +12,7 @@ namespace Shoppingcart.Controllers
 {
     public class StructuremapControllerFactory : DefaultControllerFactory
     {
-        //protected override IController GetControllerInstance(RequestContext requestContext, Type controllerType)
-        //{
-        //    return ObjectFactory.GetInstance(controllerType) as IController;
-        //}
-
+       
         private const string ControllerNotFound = "The controller for path '{0}' could not be found or it does not implement IController.";
         private const string NotAController = "Type requested is not a controller: {0}";
         private const string UnableToResolveController = "Unable to resolve controller: {0}";
